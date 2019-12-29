@@ -1,19 +1,25 @@
 {
   "name": "timestamp-microservice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An FCC Backend Challenge",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node server.js"
   },
   "author": "Vamsidhar Bada",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "moment": "^2.24.0"
+    "cors": "^2.8.0"
   },
   "engines": {
     "node": "10.x"
-  }
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express",
+    "freecodecamp"
+  ]
 }
